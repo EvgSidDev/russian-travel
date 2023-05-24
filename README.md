@@ -6,5 +6,5 @@
 
 Структура проекта построена на основе методологии Nested BEM.
 
-* [Ссылка на GitPage](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на GitPages](https://evgsiddev.github.io/russian-travel/index.html)
 
