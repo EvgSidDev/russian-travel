@@ -2,28 +2,27 @@
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: repeat(2, minmax(min-content, max-content));
-  row-gap: 40px;
-  column-gap: 48px;
-  max-height: 660px;
+  row-gap: 48px;
+  column-gap: 40px;
  }
 
  @media screen and (max-width: 1280px) {
   .place {
     grid-template-columns: 440px 456px;
-    max-height: 564px;
+    column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 340px 352px;
-    max-height: 483px;
+    column-gap: 28px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 320px;
-    max-height: 1042px;
+    row-gap: 32px;
   }
 }

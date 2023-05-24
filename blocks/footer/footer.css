@@ -3,9 +3,8 @@
   padding-left: 48px;
   padding-right: 48px;
   margin: auto;
-  max-height: max-content;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(5, max-content) 1fr;
+  grid-template-columns: max-content 1fr;
   gap: 18px;
   padding-bottom: 24px;
 }
@@ -13,7 +12,7 @@
 @media screen and (max-width: 1024px) {
   .footer {
     padding-left: 24px;
-  padding-right: 24px;
+    padding-right: 24px;
   }
 }
 
@@ -25,7 +24,7 @@
     padding-left: 16px;
     max-width: 186px;
     padding-right: 0;
-    grid-template-rows: repeat(5, max-content) 1fr;
-  grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr;
+    grid-template-columns: 1fr;
   }
 }
